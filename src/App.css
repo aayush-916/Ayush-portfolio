@@ -147,11 +147,11 @@ li {
 .home{
   color: white;
   width: 90%;
-  height: 600px;
+  height: 650px;
   overflow-y: hidden;
   background-repeat: no-repeat;
   background-position-x: right;
-  background-size: 600px;
+  background-size: 650px;
 }
 .home .text{
   display: flex;
