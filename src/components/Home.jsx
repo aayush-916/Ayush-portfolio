@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactTypingEffect from 'react-typing-effect';
 import '../App.css'
+import img from '../assets/img.png';
 
 const Home = () => {
   return (
     <>
-    <div id='home' className='home'>
+    <div id='home' className='home' style={{ backgroundImage: `url(${img})` }}>
         <div className="text">
             <h5>HELLO !</h5>
             <h1>I'm <span>Ayush</span></h1>
