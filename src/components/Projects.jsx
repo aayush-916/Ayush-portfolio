@@ -5,12 +5,12 @@ import '../App.css';
 const projects = [
   {
     title: "Website for Security Systems Company",
-    description: "Designed and developed responsive websites for a CCTV camera installation and services company using React.js. Integrated dynamic content, showcasing services like installation, maintenance, monitoring, and repair.",
+    description: "Designed and developed a responsive full-stack website for a security company using React, Express, and SQLite, deployed on Netlify and Render. Features include API integration, a CI/CD pipeline, and a secure Admin Page. . Ensured compatibility across devices, optimizing the site for performance and SEO.",
     imgSrc: "/image/btc.png",
     link: "https://balajitradingcompany.netlify.app/"
   },
   {
-    title: "E-commerce website",
+    title: "E-commerce Like website",
     description: "Developed a responsive e-commerce website using HTML, CSS, JavaScript, and Flask for the backend. Integrated SQLite3 for database management and built a user-friendly admin panel. Deployed on Render for accessibility and reliability. Currently enhancing with Generative AI features to improve user experience.",
     imgSrc: "image/om.png",
     link: "https://om-printers-flask-1.onrender.com/"

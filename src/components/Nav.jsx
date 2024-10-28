@@ -6,6 +6,11 @@ function Nav() {
   const handelclick = ()=> {
     settoggle(!toggle)
   }
+  const bodyclick = ()=>{
+    if(toggle){
+      settoggle(!toggle)
+    }
+  }
   //http://localhost:5173/
   return (
     <>
@@ -16,11 +21,11 @@ function Nav() {
         <h3 className='menu' onClick={handelclick}>☰</h3>
         </div>
         <ul className={`ull ${toggle ? 'active' : ''}`}>
-          <li><a href='#home'>Home</a></li>
-          <li><a href='#about'>About</a></li>
-          <li><a href='/web_developer.pdf'>Resume</a></li>
-          <li><a href='#project'>projects</a></li>
-          <li><a href='#footer'>Contact</a></li>
+          <li><a href='#home' onClick={bodyclick}>Home</a></li>
+          <li><a href='#about' onClick={bodyclick}>About</a></li>
+          <li><a href='/web_developer.pdf' onClick={bodyclick}>Resume</a></li>
+          <li><a href='#project' onClick={bodyclick}>projects</a></li>
+          <li><a href='#footer' onClick={bodyclick}>Contact</a></li>
         </ul>
         
       </nav>

@@ -6,10 +6,12 @@ import Edu from './components/Edu'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import {useState } from 'react'
 
   //http://localhost:5173/
 function App() {
-
+    const [click,setclick] = useState(false)
+  
 
   return (
     <>
