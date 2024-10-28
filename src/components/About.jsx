@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
-import '../app.css'; // Import your CSS styles
+import '../App.css'; // Import your CSS styles
 import { FaUserTie } from 'react-icons/fa'; // Import a large icon from react-icons
 
 const About = () => {
