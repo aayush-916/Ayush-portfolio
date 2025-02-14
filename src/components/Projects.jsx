@@ -4,6 +4,18 @@ import '../App.css';
 
 const projects = [
   {
+    title: "Website for LeafCode Technology Company",
+    description: "Developed and deployed the LeafCode Technology website using React.js for a responsive frontend and Express.js for a scalable backend. Integrated SQL for database management and a Telegram Bot for real-time customer inquiry notifications. Demonstrated expertise in full-stack development and API integration.",
+    imgSrc: "/image/leafcode.png",
+    link: "https://leafcode.in/"
+  },
+  {
+    title: "Website for Tour and Travels Agency",
+    description: "Developed a dynamic and visually appealing website for Hrithvik Travels , featuring an intuitive UI and a seamless booking system to enhance user experience and streamline travel reservations.",
+    imgSrc: "/image/hrithvik.png",
+    link: "https://hrithviktravels.in/"
+  },
+  {
     title: "Website for Security Systems Company",
     description: "Designed and developed a responsive full-stack website for a security company using React, Express, and SQLite, deployed on Netlify and Render. Features include API integration, a CI/CD pipeline, and a secure Admin Page. . Ensured compatibility across devices, optimizing the site for performance and SEO.",
     imgSrc: "/image/btc.png",

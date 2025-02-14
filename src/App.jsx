@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import {useState } from 'react'
+import Exp from './components/Exp'
 
   //http://localhost:5173/
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Nav/>
       <Home/>
       <About/>
+      <Exp/>
       <Edu/>
       <Skills/>
       <Projects/>

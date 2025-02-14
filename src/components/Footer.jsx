@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+          <p>&copy; 2024 Ayush Kumar Dubey. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
