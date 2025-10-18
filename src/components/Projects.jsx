@@ -16,11 +16,36 @@ const projects = [
     link: "https://hrithviktravels.in/"
   },
   {
+    title: "Complete Ecommerce Mobile App",
+    description: " Developed a full-stack eCommerce system featuring a React Native mobile app for customers and a React.js web admin panel for store management. Integrated Firebase for real-time database, authentication, and serverless backend; Cloudinary for optimized image hosting; and Razorpay for secure online payments. Key features include product management, order tracking with live status updates, user management, dashboard, wishlist, and a seamless checkout experience",
+    imgSrc: "image/app1.png",
+    link: "https://github.com/aayush-916/Blink-mobile-app.git"
+  },
+  {
+    title: "SVMIRA Construction ",
+    description: "Designed and developed a responsive full-stack website for a construction company",
+    imgSrc: "/image/svmira.png",
+    link: "https://svmira.in/"
+  },
+  {
+    title: "CICOL INDIA PVT LTD",
+    description: "Designed and developed a responsive full-stack website for a Pharma Company.",
+    imgSrc: "/image/cicol.png",
+    link: "https://cicolindia.com"
+  },
+  {
+    title: "Aanya solutions",
+    description: "Designed and developed a responsive full-stack website for a aanya solutions using Next js.",
+    imgSrc: "/image/aanya.png",
+    link: "https://aanyasolutions.com"
+  },
+  {
     title: "Website for Security Systems Company",
     description: "Designed and developed a responsive full-stack website for a security company using React, Express, and SQLite, deployed on Netlify and Render. Features include API integration, a CI/CD pipeline, and a secure Admin Page. . Ensured compatibility across devices, optimizing the site for performance and SEO.",
     imgSrc: "/image/btc.png",
     link: "https://balajitradingcompany.netlify.app/"
   },
+  
   {
     title: "E-commerce Like website",
     description: "Developed a responsive e-commerce website using HTML, CSS, JavaScript, and Flask for the backend. Integrated SQLite3 for database management and built a user-friendly admin panel. Deployed on Render for accessibility and reliability. Currently enhancing with Generative AI features to improve user experience.",
